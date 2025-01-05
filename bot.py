@@ -16,7 +16,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Telegram Bot Token (replace with your actual token)
-TOKEN = "7850275415:AAFXd3SGz6rRkZRl8PNGlGnppgVNkoxaXkc"
+with open(os.path.join(os.getcwd(),"/token.txt"), 'r') as file:
+    TOKEN = file.read().strip() 
 
 # Directory where temporary audio files are stored
 TEMP_DIR = "."
