@@ -125,4 +125,4 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 ---
 
 ## Author
-Your Name – [GitHub Profile](https://github.com/your-profile)
+Faizan Ahmad – [GitHub Profile](https://github.com/astronerdF/)
