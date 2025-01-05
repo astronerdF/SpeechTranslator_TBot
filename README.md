@@ -17,50 +17,51 @@ This is a Telegram bot that transcribes voice messages, translates them to a dif
 
 ### **1. Clone the repository**
 
-```bash
-```<code>
+```python
 git clone https://github.com/your-username/voice-translator-bot.git
 cd voice-translator-bot
-```</code>
+```
+
+
 
 ### 1. Clone the Repository
-```<code>
+```python
 git clone https://github.com/your-repo/voice-translator-bot.git
 cd voice-translator-bot
-```</code>
+```
 
 ### 2. Create a Virtual Environment (optional but recommended)
 On **Linux/macOS**:
-```<code>
+```python
 python -m venv venv
 source venv/bin/activate
-```</code>
+```
 
 On **Windows**:
-```<code>
+```python
 python -m venv venv
 venv\Scripts\activate
-```</code>
+```
 
 ### 3. Install the Required Dependencies
-```<code>
+```python
 pip install -r requirements.txt
-```</code>
+```
 
 ### 4. Set Up Your Telegram Bot Token
 Create a `.env` file in the root directory and add your bot token:
-```<code>
+```python
 TOKEN=your-telegram-bot-token
-```</code>
+```
 This ensures that your token is kept secure and not directly exposed in your code.
 
 ---
 
 ## Running the Bot
 Once everything is set up, you can start the bot using:
-```<code>
+```python
 python bot.py
-```</code>
+```
 
 ---
 
@@ -78,7 +79,7 @@ Ensure the following are installed before running the bot:
 ---
 
 ## File Structure
-```<code>
+```python
 voice-translator-bot/
 ├── bot.py                  # Main bot logic
 ├── processAudio.py         # Handles audio processing, transcription, and translation
@@ -88,20 +89,20 @@ voice-translator-bot/
 ├── requirements.txt        # List of dependencies
 ├── README.md               # Project documentation
 └── .env.example            # Example .env file for storing your bot token
-```</code>
+```
 
 ---
 
 ## Environment Variables
 The project uses environment variables for sensitive data like the Telegram Bot token. Create a `.env` file in the root directory and add the following:
-```<code>
+```python
 TOKEN=your-telegram-bot-token
-```</code>
+```
 
 To prevent accidental exposure of your token, make sure to add `.env` to your `.gitignore` file:
-```<code>
+```python
 .env
-```</code>
+```
 
 ---
 
